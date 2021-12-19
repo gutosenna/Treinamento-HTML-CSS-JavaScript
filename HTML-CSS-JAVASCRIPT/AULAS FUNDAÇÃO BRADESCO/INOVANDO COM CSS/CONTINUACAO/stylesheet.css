@@ -1,0 +1,18 @@
+
+.sprite {
+    position: relative;
+    background-image: url(facebook-icone-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook-icone-sprite {
+    width: 64px;
+    height: 64px;
+    background-position: 0px 0px;
+}
+.sprite-facebook-icone-sprite:hover {
+    width: 64px;
+    height: 64px;
+    background-position: 0px -64px;
+}

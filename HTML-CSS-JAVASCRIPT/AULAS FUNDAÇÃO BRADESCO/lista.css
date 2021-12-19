@@ -1,0 +1,18 @@
+﻿p {color: green; font-size: 30px;}
+
+ul {
+	//list-style-type: circle;
+	//list-style-type: square;
+	//list-style-type: upper-roman;
+	//list-style-type: lower-alpha;
+
+	//list-style-position: inside;
+	//list-style-position: outside;
+	list-style-image: url('imagem-desejada.png');
+
+}
+
+
+
+
+

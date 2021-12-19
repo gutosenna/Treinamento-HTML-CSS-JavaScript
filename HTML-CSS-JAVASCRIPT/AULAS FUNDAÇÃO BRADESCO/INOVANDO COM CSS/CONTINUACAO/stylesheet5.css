@@ -1,0 +1,55 @@
+
+#nav {
+    position: relative;          
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+
+#nav li, #nav a {
+    height: 75px;
+    display: block;
+}
+
+.home {    
+    left: 0px;
+    width: 75px;
+    background: url(Imagem.png) 0 0;
+}
+
+.home:hover {
+    width: 75px;
+    height: 75px;
+    background-position: 0px -80px;
+}
+
+.agenda {
+    left: 75px;
+    width: 75px;
+    background: url(Imagem.png) -95px 0;
+}
+.agenda:hover {
+    width: 75px;
+    height: 75px;
+    background-position: -95px -80px;
+}
+
+.contato {
+    left: 150px;
+    width: 75px;
+    background: url(Imagem.png) -190px 0;
+}
+
+.contato:hover {
+    width: 75px;
+    height: 75px;
+    background-position: -190px -80px;
+}
+
+
+

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">  <!--define os caracteres universais no navegador--> 
+    <title>Tabuleiro de Damas</title> <!--define o titullo que vai aparecer na aba do navegador-->
+    <link rel="stylesheet" type="text/css" href="estilos2.css" > <!--define o local da folha de estilo CSS-->
+</head>
+<body onLoad="tabuleiro()">   <!--a tag body contem tudo que aparece na pagina-->
+    <h1>TABULEIRO de damas</h1>  
+    <p id="autorNome">Nome do autor</p> 
+
+    <div id="container">
+
+    <canvas id="folha" width="640" height="640">Seu navegador não suporta HTML 5</canvas>
+
+    <script>
+
+    //define o nome do Autor na tela
+    var autorNome;
+    autorNome = prompt('Digite o seu nome.');
+
+    function definirNomeAutor(nome) {
+        document.getElementById('autorNome').innerHTML = nome;
+      }
+      definirNomeAutor(autorNome);
+
+    function tabuleiro() {
+
+      var folhaDesenho = document.getElementById("folha");
+      var areaDesenho = folhaDesenho.getContext("2d");
+
+      var posicaoX = 80;
+      var ladrilhoPretoX = 0;
+      var ladrilhoBrancoX = 0;
+      var ladrilhoBrancoX2 = 80;
+      var vertical;               
+      var larguraQuadrado = posicaoX;
+                  
+      //area cinza
+      areaDesenho.fillStyle = '#eee';
+      areaDesenho.fillRect(0, 0, 640, 640);       
+                                                                   
+             
+       for( i = 0; i <4; i++) {      
+          vertical = 0;                 
+          
+            //quadrado branco
+            areaDesenho.strokeRect(ladrilhoBrancoX, vertical, larguraQuadrado, larguraQuadrado);
+
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(posicaoX, vertical, larguraQuadrado, larguraQuadrado);                                
+            
+            posicaoX+=160;
+            ladrilhoBrancoX+=80;                               
+        }           
+                
+        for( x = 0; x <4; x++) {
+          vertical = 80;                 
+                          
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(ladrilhoPretoX, vertical, larguraQuadrado, larguraQuadrado);
+      
+            //quadrado branco              
+            areaDesenho.strokeRect(ladrilhoBrancoX2, vertical, larguraQuadrado, larguraQuadrado);
+                      
+            ladrilhoPretoX+=160;
+            ladrilhoBrancoX2+=80;                
+                                
+        }   posicaoX = 80;
+            ladrilhoBrancoX = 0;
+            ladrilhoPretoX = 0;
+                           
+        for( i = 0; i <4; i++) {      
+          vertical = 160;                  
+          
+            //quadrado branco
+            areaDesenho.strokeRect(ladrilhoBrancoX, vertical, larguraQuadrado, larguraQuadrado);
+
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(posicaoX, vertical, larguraQuadrado, larguraQuadrado);                                
+            
+            posicaoX+=160;
+            ladrilhoBrancoX+=80;                            
+        } 
+               
+                
+        for( x = 0; x <4; x++) {
+          vertical = 240;               
+                         
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(ladrilhoPretoX, vertical, larguraQuadrado, larguraQuadrado);
+      
+            //quadrado branco              
+            areaDesenho.strokeRect(ladrilhoBrancoX2, vertical, larguraQuadrado, larguraQuadrado);
+            
+            
+            ladrilhoPretoX+=160;
+            ladrilhoBrancoX2+=80;               
+        }
+            posicaoX = 80;
+            ladrilhoBrancoX = 0;
+            ladrilhoPretoX = 0;
+
+                           
+        for( i = 0; i <4; i++) {      
+          vertical = 320; 
+                           
+            //quadrado branco
+            areaDesenho.strokeRect(ladrilhoBrancoX, vertical, larguraQuadrado, larguraQuadrado);
+
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(posicaoX, vertical, larguraQuadrado, larguraQuadrado);                                
+            
+            posicaoX+=160;
+            ladrilhoBrancoX+=80;                                  
+        } 
+                               
+        for( x = 0; x <4; x++) {
+          vertical = 400;                 
+                         
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(ladrilhoPretoX, vertical, larguraQuadrado, larguraQuadrado);
+      
+            //quadrado branco              
+            areaDesenho.strokeRect(ladrilhoBrancoX2, vertical, larguraQuadrado, larguraQuadrado);
+                        
+            ladrilhoPretoX+=160;
+            ladrilhoBrancoX2+=80;               
+        }     
+              posicaoX = 80;
+              ladrilhoBrancoX = 0;
+              ladrilhoPretoX = 0;
+                           
+        for( i = 0; i <4; i++) {      
+          vertical = 480; 
+                           
+            //quadrado branco
+            areaDesenho.strokeRect(ladrilhoBrancoX, vertical, larguraQuadrado, larguraQuadrado);
+
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(posicaoX, vertical, larguraQuadrado, larguraQuadrado);                                
+            
+            posicaoX+=160;
+            ladrilhoBrancoX+=80;                                                                   
+          } 
+                               
+        for( x = 0; x <4; x++) {
+          vertical = 560;                 
+                         
+            //quadrado preto
+            areaDesenho.fillStyle = '#000';
+            areaDesenho.fillRect(ladrilhoPretoX, vertical, larguraQuadrado, larguraQuadrado);
+      
+            //quadrado branco              
+            areaDesenho.strokeRect(ladrilhoBrancoX2, vertical, larguraQuadrado, larguraQuadrado);
+                        
+            ladrilhoPretoX+=160;
+            ladrilhoBrancoX2+=80;                               
+        }                                                       
+    }
+        
+
+    </script>
+    </div>
+</body>
+</html>

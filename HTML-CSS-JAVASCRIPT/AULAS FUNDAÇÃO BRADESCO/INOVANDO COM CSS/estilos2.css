@@ -1,0 +1,49 @@
+/*CSS Document */
+body {
+    background-color: tan;
+    font-size: medium; /*ideal padronizar a o tamanho da fonte no body(small e medium) pois se precisar mudar tudo é só mudar aqui*/
+}
+h1 {
+    color: maroon;
+}
+hr{
+    border-color: navy; 
+   }
+/*Propriedades para formatação do texto. O texto será alinhado a direita
+com azul e fonte Arial*/
+p {
+    font-family:Verdana, Geneva, Arial, Tahoma, sans-serif;
+
+    text-align: right;
+    color: blue;
+    
+
+    background-color: red;
+    border: 1px solid gray;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+a:link {color: green;}
+a:visited {color: yellow;}
+a:hover {color: black;}
+a:active {color: blue;}
+
+/*Para #FF0000, podemos resumir em #F00
+ Para #99CCFF, podemos resumir em #9CF
+ Para #BB4499, podemos resumir em #B49
+*/
+
+/*TABELAS*/
+table,th, td { 
+    border: 1px solid black;               
+}
+
+table {
+    width: 50%;
+}
+
+th {
+    height: 30px;
+    padding: 10px;
+}

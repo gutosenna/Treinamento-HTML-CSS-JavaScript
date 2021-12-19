@@ -1,0 +1,8 @@
+/*Documento CSS*/
+#imagem {
+    float: left;
+    width: 180px;
+}
+p {
+    /*clear: both;          cancela o float*/ 
+}

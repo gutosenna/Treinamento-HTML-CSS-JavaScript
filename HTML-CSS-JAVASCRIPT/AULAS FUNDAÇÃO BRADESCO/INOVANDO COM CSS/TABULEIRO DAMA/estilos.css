@@ -1,0 +1,32 @@
+/*CSS Document */
+body {
+    background-color: skyblue; /*o corpo da p�gina ficar� azul*/    
+}
+h1 {
+  text-transform: uppercase; /* transforma o titulo em letras maiusculas*/
+}
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*define a fonte das letras */
+    text-align: center; /*alinha o titulo no centro*/
+}
+p {
+    color: white;
+}
+table, td {       
+    border: 1px solid black;    /*define a cor da borda da tabela*/
+}
+td {
+    width: 80px; /*define a largura da celula da tabela*/
+    height: 80px; /*define a altura da celula da tabela*/
+}
+.branco {
+    background-color: white; /*define a cor de fundo da tabela em branco*/
+    color: white;
+}
+.preto {
+    background-color: black; /*define a cor da tabela em preto*/
+    color: black;
+}
+#tabela table {
+  margin: 0 auto;     
+}

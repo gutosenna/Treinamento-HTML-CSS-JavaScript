@@ -1,0 +1,24 @@
+/* CSS-Document */
+
+* {
+    font-family: Helvetica Neue, Helvetica, Arial; /*Fonte utilizada na page*/
+    font-weight: 400;
+    cursor: default;
+    text-transform: uppercase;
+    color: white;      
+}
+body {
+    background-color: green;
+}
+canvas {
+    border: solid 1px;
+}
+
+h1, p {
+    text-align: center;
+    }
+#container  {
+    display: block;
+    text-align: center;   
+    
+} 

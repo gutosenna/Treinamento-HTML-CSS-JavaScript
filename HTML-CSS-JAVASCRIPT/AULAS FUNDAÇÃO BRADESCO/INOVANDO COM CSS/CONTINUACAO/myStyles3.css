@@ -1,0 +1,48 @@
+/* CSS Document */
+/*#Menu ul li {
+    display: inline;
+    position: relative;
+}
+
+#Menu ul li a {
+    float: left;
+    width: 46px;
+    height: 44px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: url('img_navsprites_hover.gif') no-repeat scroll 0 0 transparent;
+}
+
+#Menu ul li.Home a { background-position: 0px 0px;}
+#Menu ul li.Agenda a { background-position: -91px 0px;}
+#Menu ul li.Contato a { background-position: -181px 0px;}
+
+#Menu ul li.Home a:hover { background-position: 0px -78px;}
+#Menu ul li.Agenda a:hover { background-position: -91px -78px;}
+#Menu ul li.Contato a:hover { background-position: -181px -78px;}*/
+
+
+  #navlist {position: relative; }  
+  #navlist li {margin: 0; padding: 0; list-style: none; position: absolute;  top: 0; }  
+  #navlist li, #navlist a { height: 44px; display: block; }  
+  #home { left: 0px; width: 46px; background: url('img_navsprites_hover.gif') 0 0; }  
+  #prev { left: 63px; width: 43px; background: url('img_navsprites_hover.gif') -47px 0; }  
+  #next { left: 129px; width: 43px; background: url('img_navsprites_hover.gif') -91px 0; }  
+  #home a:hover { background: url('img_navsprites_hover.gif') 0 -45px; }  
+  #prev a:hover { background: url('img_navsprites_hover.gif') -47px -45px;  }  
+  #next a:hover { background: url('img_navsprites_hover.gif') -91px -45px; }
+
+  /*#home {
+    width: 46px;
+    height: 44px;
+    background: url(img_navsprites.gif) 0 0;
+  }
+  
+  #next {
+    width: 43px;
+    height: 44px;
+    background: url(img_navsprites.gif) -91px 0;
+  }*/

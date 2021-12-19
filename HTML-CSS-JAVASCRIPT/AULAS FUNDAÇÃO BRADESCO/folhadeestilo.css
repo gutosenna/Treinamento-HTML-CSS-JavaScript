@@ -1,0 +1,27 @@
+﻿p {color: green; font-size: 30px;}
+/*body {background-color: red;}*/
+body {
+        background-image: URL('desert.jpg');
+
+        background-position: 10px 30px; /*10px posição vertical 30px posição horizontal*/
+	/*background-position: 50% 50%;*/
+	/*background-position: top left;*/
+
+	background-repeat: no-repeat;
+	/*background-repeat: repeat;*/
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+
+	background-attachment: scroll;
+	/*background-attachment: fixed;*/
+
+	background-size: 450px 450px;
+	/*background-size: auto;*/
+	/*background-size: cover;*/
+	/*background-size: 100%;*/
+}
+
+
+
+
+
