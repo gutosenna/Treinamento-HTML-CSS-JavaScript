@@ -1,0 +1,16 @@
+****Operadores****
+Soma
+var soma = 1+1;
+
+Subtração
+var sub = 1-1;
+
+multiplicação
+var multi = 1*1;
+
+divisão
+var div = 10/2;
+
+Raiz Quadrada
+var quadrado = Math.sqrt(16);
+

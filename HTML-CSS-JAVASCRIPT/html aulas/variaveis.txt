@@ -1,0 +1,52 @@
+***** Variáveis ***** (Aula 01)
+
+|| ----- REGRA 1 = Para declarar uma variável use o comando var: ----- ||
+
+var <nome>;
+
+|| ----- REGRA 2 = A variável deve ser declarada sempre antes do seu uso: ----- ||
+
+var nascimento;
+var idade;
+idade = 2016 - nascimento;
+
+|| ----- REGRA 3 = O nome deve começar com uma letra, underline, ou cifrão; Os subsequentes podem também ser números. ----- ||
+
+var _teste;
+var $outro;
+var numero2;
+
+|| ----- REGRA 4 = Os nomes são sensíveis a letras maiúsculas e minúsculas (case sensitive).----- ||
+
+var anoatual;
+var anoAtual;
+
+*NaN = Not a Number
+
+
+
+***Aula 02***
+
+-Numéricas(inteiros,decimais)
+-Caracteres
+-booleanos
+
+Inteiros
+var valor01 = 1;
+
+Decimais
+var valor2 = 1.5;
+
+Textuais
+var nome = "Guto";
+
+Booleanas
+var verdade = true; (verdade/sim/1)
+var falso = false;  (falso/não/0)
+
+<script>
+console.log("Esta mensagem não aparece na tela para o usuário");
+</script>
+
+
+

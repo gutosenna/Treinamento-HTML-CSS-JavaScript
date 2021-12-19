@@ -1,0 +1,34 @@
+let BTN = document.querySelector('button');
+          let OVERLAY = document.querySelector('#overlay');
+
+          BTN.addEventListener('click', (ev) => {
+          console.log('Tente clicar no botão !! :) ');
+          OVERLAY.style.display = 'block'; // Exibe a div
+          setTimeout(() => {
+          console.log('Agora você pode clicar no botão novamente !! :D ');
+          OVERLAY.style.display = 'none';
+            }, 5000); // Para exemplo, apos 5 segundos oculta a div
+          });
+
+___________________________________________________________
+
+ativo = false;
+          function desabilitar(e){
+                e.stopPropagation();
+                e.preventDefault();
+
+            }
+          function desabilitarClick (e) {
+            if(ativo === false) {
+            document.addEventListener("click",desabilitar,true);
+            }
+
+            ativo = true;
+
+            setTimeout(function(){ document.removeEventListener("click",desabilitar,true); }, 5000);
+          }
+          function alertar() {
+            alert('stackoverflow')
+
+
+https://pt.stackoverflow.com/questions/263222/desabilitar-click-no-body-durante-um-per%C3%ADodo-de-tempo

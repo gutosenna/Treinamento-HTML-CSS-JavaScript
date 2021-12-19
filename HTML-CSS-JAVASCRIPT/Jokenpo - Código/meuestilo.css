@@ -1,0 +1,17 @@
+p{
+	color:;
+}
+
+h1 {
+  color: RGB(0,0,0);
+
+}
+
+.placar,
+.mensagem {
+  border: 1px solid blue;
+}
+
+.meu_id{
+	color:;
+}

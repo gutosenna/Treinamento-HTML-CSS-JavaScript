@@ -1,0 +1,1 @@
+{"Message":"Login realizado com sucesso","StatusCode":200,"Data":{"Nome":"Sérgio Augusto de Senna","Login":"sergio.senna4"},"Errors":null}

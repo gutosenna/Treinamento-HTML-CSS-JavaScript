@@ -1,0 +1,9 @@
+Mobile (Ionic)
+Internet (AngularGS)
+Jogos (Cocos2d)
+Desktop (Electron)
+
+Sites de cores
+www.colourlovers.com
+http://flatuicolors.com
+https://www.w3schools.com/colors/colors_picker.asp
